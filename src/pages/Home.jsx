@@ -1,4 +1,7 @@
 import React from "react";
+import selfie from "../assets/images/selfie.jpeg";
+import Hero from "../Components/Hero/Hero.jsx";
+import heroBanner from "../assets/images/HeroBanner.png"
 
 function Home() {
   return (
@@ -28,7 +31,7 @@ function Home() {
           knowledge journey is consistently active.
         </p>
         <aside>
-          <img/>
+            <img src={selfie} />
         </aside>
       </div>
     </div>

@@ -1,13 +1,15 @@
 import React from "react";
 import selfie from "../assets/images/selfie.jpeg";
-import Hero from "../Components/Hero/Hero.jsx";
+import Hero from "../components/hero/Hero.jsx";
 import heroBanner from "../assets/images/HeroBanner.png"
 
 function Home() {
   return (
     <div>
+        <Hero src={heroBanner}>
         <h1>Emily Kent's Portfolio</h1>
         <h2>Learn a little more about me</h2>
+      </Hero>
       <div>
         <h2>About me</h2>
         <p>
